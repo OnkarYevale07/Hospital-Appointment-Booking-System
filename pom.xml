@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.hospital2</groupId>
+	<artifactId>Hospital2</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Hospital2 Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.29</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/jakarta.mail/jakarta.mail-api -->
+		<dependency>
+			<groupId>jakarta.mail</groupId>
+			<artifactId>jakarta.mail-api</artifactId>
+			<version>2.1.2</version>
+		</dependency>
+		<!--
+		https://mvnrepository.com/artifact/jakarta.activation/jakarta.activation-api -->
+		<dependency>
+			<groupId>jakarta.activation</groupId>
+			<artifactId>jakarta.activation-api</artifactId>
+			<version>2.1.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.sun.mail/jakarta.mail -->
+		<dependency>
+			<groupId>org.eclipse.angus</groupId>
+			<artifactId>jakarta.mail</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>Hospital2</finalName>
+	</build>
+</project>
